@@ -1,5 +1,5 @@
 num = int(raw_input())
 if (num%2 == 0):
-     print(Even)
+     print("Even")
 else:
-    print(Odd)
+    print("Odd")
