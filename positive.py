@@ -1,6 +1,6 @@
-num=float(input("enter a Number"))
+num=int(raw_input())
 if num>0:
-  print("Positive")
+   print("Positive")
 elif num<0:
    print("Negative")
 else:
