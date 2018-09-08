@@ -1,4 +1,4 @@
-for n in range(150,160):
+for n in range(360,380):
   temp=n
   sum=0
   while temp>0:
