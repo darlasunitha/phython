@@ -1,9 +1,10 @@
-for num in range(150,160):
-  temp=num
+for n in range(150,160):
+  temp=n
   sum=0
   while temp>0:
       digit=temp%10
       sum=sum+digit**3
       temp=temp//10
-      if sum==num:
-           print (num)
+      if sum==n:
+           print (n)
+
