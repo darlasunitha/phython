@@ -1,3 +1,3 @@
-a=raw_input()
-list=[int(x) for x in raw_input().split()]
-print max(list)
+s=raw_input()
+l=[int(i) for i in raw_input().split()]
+print max(l)
