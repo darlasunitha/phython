@@ -1,7 +1,7 @@
-x = raw_input().rstrip()
-sLen = len(x)
+num = raw_input().rstrip()
+sLen = len(num)
 mid = sLen >> 1
 if (sLen & 1):
-	print(x[:mid] + "*" + x[mid+1:])
+	print(num[:mid] + "*" + num[mid+1:])
 else:
-	print(x[:mid-1] + "**" + x[mid+1:])
+	print(num[:mid-1] + "**" + num[mid+1:])
