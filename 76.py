@@ -1,8 +1,8 @@
-k=int(raw_input())
+num=int(raw_input())
 factor=0
-for x in range(1,k):
-    if k%x==0:
-        factor=x
+for i in range(1,num):
+    if num%i==0:
+        factor=i
 if factor>1:
     print "yes"
 else:
